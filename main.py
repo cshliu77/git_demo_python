@@ -1,7 +1,5 @@
 import sys
 
-def hello_world_zh():
-    print("哈囉！世界！")
 def additionMethod(num1, num2):
     return num1 + num2
 def subtractionMethod(num1 ,num2):
