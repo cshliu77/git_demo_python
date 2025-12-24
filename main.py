@@ -26,7 +26,6 @@ if __name__ == '__main__':
 
     if operator == '+':
         print(f"The sum of {num1} and {num2} is {additionMethod(int(num1), int(num2))}")
-
     elif operator == '-':
         print(f"The difference of {num1} and {num2} is {subtractionMethod(int(num1), int(num2))}")
     elif operator == '/':
@@ -35,5 +34,5 @@ if __name__ == '__main__':
         print(f"The product of {num1} and {num2} is {multiplicationMethod(int(num1), int(num2))}")
 
     else:
-        print("Unsupported operator.")
+        print("Unsupported operator.[" + operator + "]")
     
